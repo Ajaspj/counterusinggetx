@@ -11,6 +11,7 @@ class Cartcontroller extends GetxController {
 
     if (fetchedList != null) {
       list.value = fetchedList;
+      update();
     }
   }
 }
